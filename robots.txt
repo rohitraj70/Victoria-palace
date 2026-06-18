@@ -11,7 +11,7 @@ Disallow: /*.pdf
 Disallow: /*.zip
 
 # Sitemap
-Sitemap: https://victoriapalacechhapra.com/sitemap.xml
+Sitemap: https://rohitraj70.github.io/Victoria-palace/sitemap.xml
 
 # Crawl delay for search engines
 Crawl-delay: 1

@@ -1,0 +1,22 @@
+# Victoria Palace SEO Robots.txt
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+Disallow: /admin/
+Disallow: /*.pdf
+Disallow: /*.zip
+
+# Sitemap
+Sitemap: https://victoriapalacechhapra.com/sitemap.xml
+
+# Crawl delay for search engines
+Crawl-delay: 1
+
+# Google specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0

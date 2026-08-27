@@ -2,48 +2,65 @@
 VICTORIA PALACE - SEO OPTIMIZATION GUIDE
 ========================================
 
-✅ COMPLETED SEO OPTIMIZATIONS:
+IMPLEMENTED SEO FOUNDATIONS:
 ====================================
 
 1. META TAGS & HEAD SECTION
-   ✓ Optimized title tag (52 characters - ideal length)
-   ✓ Comprehensive meta description (155 characters)
-   ✓ Keywords meta tag added
+   ✓ Title tag and meta description added
    ✓ Author, robots, language tags
    ✓ Open Graph tags (Facebook, LinkedIn sharing)
    ✓ Twitter Card tags
    ✓ Favicon with palace logo
+   ✓ Canonical URL added for the GitHub Pages deployment
+   ✓ Open Graph and Twitter images use an existing image file
+   □ Remove or ignore the keywords tag; major search engines do not use it
 
 2. STRUCTURED DATA (JSON-LD SCHEMA)
    ✓ Local Business schema
-   ✓ Complete business information
    ✓ Location coordinates (Geo)
-   ✓ 4.7/5 rating aggregation
-   ✓ Opening hours
-   ✓ Social media links (sameAs)
+   ✓ Business phone and address included
+   □ Verify the rating and review count against the real Google Business Profile
+   ✓ Schema opening hours match the visible hours on the page
+   ✓ sameAs uses the real social profile URLs
 
 3. TECHNICAL SEO FILES
    ✓ sitemap.xml - Created
    ✓ robots.txt - Created
    ✓ Mobile responsive design
-   ✓ Fast loading resources (CDN)
+   ✓ External libraries loaded from CDN
+   ✓ One GitHub Pages domain is used consistently in sitemap.xml, robots.txt, metadata, and schema
+   □ Test the deployed sitemap and robots.txt in Google Search Console
 
 4. ON-PAGE SEO
-   ✓ Proper HTML structure (H1, H2 tags)
-   ✓ Image alt attributes (add manually if needed)
-   ✓ Internal linking structure
-   ✓ Semantic HTML
+   ✓ One H1 and logical section headings are present
+   ✓ Relevant local and service terms appear in the page copy
+   ✓ H1 identifies Victoria Palace and Chhapra
+   ✓ Descriptive alt text added to every gallery image
+   □ Verify internal links and replace the placeholder email link
+   □ Replace placeholder owner names and avatar content with accurate business information
+
+================================
+PRE-DEPLOYMENT BLOCKERS:
+================================
+
+✓ Choose the final canonical domain and apply it consistently everywhere
+✓ Correct image URLs: the repository contains "images/main hall.jpeg", not "images/main-hall.jpeg"
+✓ Use the verified WhatsApp number in every WhatsApp link
+✓ Make visible opening hours and JSON-LD opening hours identical
+✓ Replace fake schema social URLs with the real profiles
+✓ Add canonical, og:site_name, and twitter:image metadata
+□ Add rel="noopener" to every external link opened with target="_blank"
 
 ================================
 DEPLOYMENT CHECKLIST:
 ================================
 
 STEP 1: UPDATE YOUR DOMAIN
-When deploying, replace "https://victoriapalacechhapra.com" in:
+When deploying, replace every development or placeholder URL with the final domain in:
 - sitemap.xml
-- index.html (og:url)
 - robots.txt
-- JSON-LD schema
+- index.html metadata
+- index.html JSON-LD schema
 
 STEP 2: GOOGLE SEARCH CONSOLE
 1. Go to Google Search Console (search.google.com/search-console)
@@ -131,10 +148,10 @@ Recommendations:
 □ Use CDN (Netlify already does this)
 
 ================================
-SOCIAL MEDIA LINKS:
+VERIFIED SOCIAL MEDIA LINKS:
 ================================
 
-Update these if deploying with custom domain:
+Use these real profiles in the page and JSON-LD sameAs array:
 □ Google Maps: https://maps.google.com/maps/place/Victoria+Palace
 □ Instagram: https://www.instagram.com/victoriapalace_
 □ Facebook: https://www.facebook.com/p/Victoria-Palace-61565540523936/
@@ -149,4 +166,4 @@ For support after deployment:
 - Bing Webmaster Tools support
 - Google Analytics support community
 
-Good luck with deployment! 🎉
+Review this checklist after every domain or business-information change.
